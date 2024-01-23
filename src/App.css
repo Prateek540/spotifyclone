@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Signika", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+}
+
+.heading {
+  color: rgb(224, 224, 224);
+  margin-top: 12vh;
+  margin-bottom: 1vh;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow-x: auto;
+  overflow-y: auto;
+  margin-bottom: 150px;
+}
+.Card {
+  box-sizing: border-box;
+  width: 180px;
+  height: 280px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.Card:hover {
+  opacity: 0.5;
+}
+
+.media {
+  height: 120px;
+  width: 100px;
+}
+
+.player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+}
